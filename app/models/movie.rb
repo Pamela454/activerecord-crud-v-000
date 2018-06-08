@@ -7,7 +7,6 @@ class Movie < ActiveRecord::Base
      @director = director
      @lead = lead
      @in_theaters = in_theaters
-
    end
 
 end
