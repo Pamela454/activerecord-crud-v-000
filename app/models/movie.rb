@@ -8,4 +8,4 @@ class Movie < ActiveRecord::Base
   #   @in_theaters = in_theaters
   # end
 
-#end
+end
