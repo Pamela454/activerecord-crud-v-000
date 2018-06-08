@@ -3,8 +3,8 @@ class CreateMovies < ActiveRecord::Migration
     create_table :dogs do |t|
       t.string :title
       t.integer :release_date
-      t.string 
-      t.string 
+      t.string :director
+      t.string :lead
     end
   end
   end
