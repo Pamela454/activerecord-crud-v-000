@@ -1,12 +1,11 @@
 class Movie < ActiveRecord::Base
-  attr_accessor :title, :release_date, :director, :lead, :in_theaters
+  #attr_accessor :title, :release_date, :director, :lead, :in_theaters
 
-   def initialize(title)
-     @title = title
-     @release_date = release_date
-     @director = director
-     @lead = lead
-     @in_theaters = in_theaters
-   end
+  # def initialize(title)
+  #   @title = title
+  #   @director = director
+  #   @lead = lead
+  #   @in_theaters = in_theaters
+  # end
 
-end
+#end
