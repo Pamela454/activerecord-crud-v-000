@@ -5,6 +5,8 @@ class Movie < ActiveRecord::Base
      @title = title
      @release_date = release_date
      @director = director
+     @lead = lead
+     @in_theaters = in_theaters
 
    end
 
