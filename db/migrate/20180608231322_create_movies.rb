@@ -7,6 +7,5 @@ class CreateMovies < ActiveRecord::Migration
       t.string :lead
       t.boolean :in_theaters
     end
-    binding.pry 
   end
 end
