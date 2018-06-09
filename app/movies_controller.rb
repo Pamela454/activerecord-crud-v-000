@@ -23,7 +23,7 @@ def can_be_created_with_a_hash_of_attributes
   movie.save
   movie
 end
-# access values by key in hash. args is empty hash set as default value. 
+# access values by key in hash. args is empty hash set as default value.
 def can_be_created_in_a_block(args = { title: "Home Alone", release_date: 1990 })
   Movie.create do |m|
     m.title = args[:title]
