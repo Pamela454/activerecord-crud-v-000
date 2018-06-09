@@ -95,6 +95,6 @@ def can_destroy_all_items_at_once
     Movie.create(title: "Movie_#{i}")
   end
     ObjectSpace.each_object(Movie) do |m|
-    m.clear
+    m.delete
   end
 end
