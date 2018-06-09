@@ -65,7 +65,7 @@ def can_be_found_updated_and_saved
   # Updtate the title "Awesome Flick" to "Even Awesomer Flick"
   Movie.create(title: "Awesome Flick")
   movie = Movie.find_by(title: "Awesome Flick")
-  
+  movie.title = "Awesomer Flick"
 end
 #dont use low level that exposes details like reference to the hash itself
 def can_update_using_update_method
