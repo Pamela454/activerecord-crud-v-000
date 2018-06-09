@@ -23,7 +23,7 @@ def can_be_created_with_a_hash_of_attributes
   movie.save
   movie
 end
-
+# access values by key in hash 
 def can_be_created_in_a_block(args = { title: = "Home Alone", release_date: = 1990 })
   Movie.create do |m|
     m.title = args[:title]
